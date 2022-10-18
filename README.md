@@ -1,0 +1,1 @@
+你说的对，但是我认为 Menshit 应该在  IPhone 14 Pro Max 非海南免税版上运行 MSDOS 然后执行 sudo pacman -Syu ，然后他就可以把 NixOS 升级到最新版本，这就意味着一个风滚草用户开始了桶滚，不过  AMD 显卡的用户要注意，Windows Update 可能会搞坏你在 Android 上的 Nvidia 显卡驱动，所以更新 Windows 10 Mobile 可以给 iPhone 3gs 用户带来更佳的 Gentoo 使用体验，综上所述，用 波音787 搞渗透是可行的，但是前提是你能够熟练的开火车，这样才能用胶带开启虫洞进行星际穿越。
