@@ -42,6 +42,7 @@ def special_filter(lower_message: str):
 
 @dp.message_handler()
 async def message_handler(message: types.Message):
+    print(message.from_user.id)
     if message.from_user.id != MILENA_USER_ID:
         return
     weight: float = 0.0
@@ -53,6 +54,7 @@ async def message_handler(message: types.Message):
     weight += special_filter(lower_message)
     print(weight)
     if weight >= 1.0:
+        print(lower_message)
         await ban_user(message)
 
 
