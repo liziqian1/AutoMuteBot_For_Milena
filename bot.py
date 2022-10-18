@@ -50,7 +50,7 @@ async def message_handler(message: types.Message):
                 weight += add_weight
     weight += special_filter(lower_message)
     if weight >= 1.0:
-        await ban_user(message)  # not implemented, how to get sender in aiogram?
+        await ban_user(message)
 
 
 if __name__ == '__main__':
