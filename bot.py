@@ -51,6 +51,7 @@ async def message_handler(message: types.Message):
             if word in lower_message:
                 weight += add_weight
     weight += special_filter(lower_message)
+    print(weight)
     if weight >= 1.0:
         await ban_user(message)
 
