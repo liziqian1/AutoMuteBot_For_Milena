@@ -17,6 +17,10 @@ async def ban_user():
     await bot.restrict_chat_member(chat_id=CHITANG_CHAT_ID, user_id=MILENA_USER_ID, permissions=permissions,
                                    until_date=datetime.datetime.now() + datetime.timedelta(minutes=10))
 
-if __name__ == '__main__':
-    #executor.start_polling(dp, skip_updates=False)
+
+@dp.message_handler()
+async def message_handler(message: types.Message):
     await ban_user()
+
+if __name__ == '__main__':
+    executor.start_polling(dp, skip_updates=False)
