@@ -19,4 +19,4 @@ async def ban_user():
 
 if __name__ == '__main__':
     #executor.start_polling(dp, skip_updates=False)
-    ban_user()
+    await ban_user()
