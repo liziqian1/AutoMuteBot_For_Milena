@@ -13,13 +13,11 @@ MILENA_USER_ID = 5039198489
 CHITANG_CHAT_ID = -1001193721792
 
 WORDS = {
-    100:
-        ['menshit', '痢癞客', 'arshit'],
-    50:
-        ['menci', '鼠辈', '他妈', '你妈', '用户中心', '中心用户', '傻逼', 'sb ', 'sb的', '智商','dick','dich', '晦气'],
-    40:
+    70:
+        ['menshit', '痢癞客', 'arshit',  'menci', '鼠辈', '他妈', '你妈', '用户中心', '中心用户', '傻逼', 'sb ', 'sb的', '智商','dick','dich', '晦气'],
+    60:
         ['我不信', '不信', '性取向'],
-    30:
+    50:
         ['依云', 'felix', 'farsee', 'archcn', 'arch cn', '微软员工', 'shit', 'archlinuxcn', 'archlinux cn'],
     20:
         ['arch linux', 'archlinux', 'pacman', '包管理器', 'nix', 'pac man', 'bugde', 'krash de', 'nixpkgs', 'nur'],
